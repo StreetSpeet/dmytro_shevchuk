@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="First.css" type="text/css">
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <title>My Portfolio</title>
+  </head>
+  <head>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Język</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.thml">Polish</a>
+        <a href="index_ru.html">Russian</a>
+      </div>
+    </div>
+  </head>
+  <body>
+    <div class="box1">
+      <img class="img1" src="Photo.png" alt="error">
+      <h1 class="first_name">DMYTRO SHEVCHUK</h1>
+      <h2 class="Date">Data i miejsce urodzenia:</h2>
+      <h3 class="date1">17.03.1997</h3>
+      <h3 class="Age">Mam: <span id="timer"></span></h3>
+      <h3 class="date2">Żytomierz, Ukraine</h3>
+      <div class="box2" width=1000px height=750px>
+        <div class="tab">
+          <button class="tablinks" onclick="openPage(event, 'EDUKACJA')">EDUKACJA</button>
+          <button class="tablinks" onclick="openPage(event, 'KURSY I STAŻE')">KURSY I STAŻE</button>
+          <button class="tablinks" onclick="openPage(event, 'PRAKTYKI')">PRAKTYKI</button>
+          <button class="tablinks" onclick="openPage(event, 'UMIEJĘTNOŚCI')">UMIEJĘTNOŚCI</button>
+          </div>
+        <div id="EDUKACJA" class="tabcontent" >
+          <h3>EDUKACJA</h3>
+          <h1>Uniwersytet Opolski</h1>
+          <h3>2016-</h3>
+          <h3>Kierunek: informatyka (inżynierskie)</h3>
+          <h1>Żytomierz agrotechniczny kolegium</h1>
+          <h3>2012-2016</h3>
+          <h3>Kierunek: Mechanizacja rolnictwa w kompleksie rolno-przemysłowym</h3>
+          </div>
+        <div id="KURSY I STAŻE" class="tabcontent" >
+          <h3>KURSY I STAŻE</h3>
+          <h1>Zintegrowany Program Rozwoju Uniwersytetu Opolskiego Kurs C#</h1>
+          <h3>2019</h3>
+          <h1>Kurs języka angielskiego at B1 CEFR</h1>
+          <h3>Wrzesień-Grudzień 2018</h3>
+          <h1>Kurs języka polskiego at A1, B1 CEFR</h1>
+          <h3>Wrzesień-Grudzień 2016</h3>
+          <h1>Fundacja "Misija w Ukrainie"</h1>
+          <h3>Wolontariusz obozu letniego dla dzieci niepełnosprawnych</h3>
+          <h3>2011-2012</h3>
+          </div>
+      <div id="PRAKTYKI" class="tabcontent">
+          <h3>PRAKTYKI</h3>
+          <h3>LvlApp Studio 2018</h3>
+          <h3>120 godzin</h3>
+          <h3>ITDevelop 2019</h3>
+          </div>
+      <div id="UMIEJĘTNOŚCI" class="tabcontent">
+          <h3>UMIEJĘTNOŚCI</h3>
+          </div>
+      </div>
+      </div>
+      <script src="n.js"></script>
+      <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+      <script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+      <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
