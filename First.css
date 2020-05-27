@@ -28,6 +28,9 @@ body {
   border: 4px solid rgba(0, 0, 255, 0.4);
   border-radius: 90px;
 }
+h1{
+  font-size: 28px;
+}
 .tab{
   width: 100%;
   height: 100%;
