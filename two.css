@@ -1,0 +1,52 @@
+@@media all and (max-width:1000px){
+.menu2{
+  overflow: hidden;
+}
+.nag{
+  font-size: 20px;
+}
+.dws-menu ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  transition: max-height 0.3s;
+}
+.menu2 li>ul{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.menu2 ul>li ul{
+  position: absolute;
+  right: auto;
+  top: auto;
+}
+.menu2 label.toggleMenu{
+  display: block;
+}
+input.toggleMenu:checked + label.toggleSubmenu{
+  background-image: url("126.jpg");
+  background-size: cover;
+  color: #FF0000;
+}
+input.toggleMenu:checked  ~ ul,
+input.toggleSubmenu:checked ~ ul  {
+  display: block;
+  position: relative;
+  max-height: 5000px;
+  transition: max-height 2s ease-in;
+}
+.menu2 label.toggleSubmenu{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 100%;
+  height:100%;
+  display:block;
+}
+input.toggleSubmenu:checked~a{
+  background: #454547;
+  color: #fff;
+}
+}

@@ -1,0 +1,176 @@
+
+body {
+  background-image: url("Background/backg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+.box1  {
+  width: 1000px;
+  height: 700px;
+  left: calc( 30% - 350px );
+  top: 9%;
+  position: absolute;
+  background: url("Background/backg2.png")center/cover no-repeat;
+  border-radius: 90px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+}
+.box2{
+  width: 100%;
+  height: 100%;
+  left: calc( 50% - 100px );
+  top: 10%;
+  position: absolute;
+  border: 4px solid rgba(0, 0, 255, 0.4);
+  border-radius: 90px;
+}
+.tab{
+  width: 100%;
+  height: 100%;
+  left: calc( 50% - 501px );
+  position: absolute;
+  overflow: hidden;
+  border-radius: 90px;
+  border: 4px solid rgba(0, 0, 255, 0.4);
+  background: url("Background/backg3.jpg")center/cover no-repeat;
+  text-align: center;
+}
+.tab button {
+    background-color: inherit;
+    border: none;
+    border-radius: 90px;
+    border: 4px solid rgba(0, 0, 255, 0.6);
+    outline: none;
+    cursor: pointer;
+    padding: 25px 20px;
+    transition: 0.3s;
+    color: #FFFFFF;
+    font-family: Century,sans-serif;
+    font-size: 18px;
+
+}
+.tab button.active {
+    margin-right: 7px;
+    border-radius: 90px;
+    background: url("Background/backg4.png");
+    color: #FFFFFF;
+    font-family: Century,sans-serif;
+    font-size: 18px;
+}
+.tabcontent {
+    width: 100%;
+    height: 88%;
+    top: 12%;
+    color: #FFFFFF;
+
+    position: absolute;
+    border-radius: 90px;
+    display: none;
+    border: 4px solid rgba(0, 0, 255, 0.6);
+    background: url("Background/backg4.png");
+    background-size:cover;
+
+}
+.img1{
+  width: 300px;
+  height: 300px;
+  left: calc( 40% - 370px );
+  top: 5%;
+  position: absolute;
+  display: flex;
+}
+.first_name{
+  position:absolute;
+  left: 2%;
+  top:50%;
+  color:#FFFFFF;
+}
+.Date{
+  position:absolute;
+  left: 2%;
+  top: 60%;
+  color:#FFFFFF;
+  font-family: Century,sans-serif;
+  font-size: 18px;
+}
+.date1{
+  position:absolute;
+  left: 2%;
+  top: 65%;
+  color: #FFFFFF;
+  font-family: Century,sans-serif;
+  font-size: 18px;
+}
+.Age {
+  position:absolute;
+  left: 2%;
+  top: 70%;
+  color: #FFFFFF;
+  font-family: Century,sans-serif;
+  font-size: 18px;
+}
+.date2{
+  position:absolute;
+  left: 2%;
+  top: 75%;
+  color: #FFFFFF;
+  font-family: Century,sans-serif;
+  font-size: 18px;
+}
+/*.pulse{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  animation: pulse 0.7s ease-out;
+  transform: scale(0);
+  position: absolute;
+}
+@@keyframes  pulse {
+  to{
+    transform: scale(2);
+    background-color: #FFFFFF;
+    opacity: 0;
+  }
+}
+*/
+
+.dropbtn {
+   background: rgba(0, 0, 0, 0);
+   color: white;
+   padding: 16px;
+   font-size: 22px;
+   border: none;
+   cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+   background:rgba(0, 0, 0, 0);
+   box-shadow: 0px 0px 16px 0px rgba(255,234,13,0.5);
+}
+.dropdown {
+  left: calc(95% - 20px);
+  position: absolute;
+   display: flex;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   left: calc(20% - 20px);
+   top: 97%;
+   background: rgba(0, 0, 0, 0);
+   min-width: 16px;
+   box-shadow: 0px 8px 16px 0px rgba(255,234,13,0.5);
+   z-index: 1;
+}
+.dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+.dropdown-content a:hover {background:rgba(255,234,13,0.2)}
+.show {display:block;}
