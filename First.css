@@ -85,13 +85,14 @@ h1{
   max-width: 300px;
   max-height: 300px;
   display: flex;
+  position: inherit;
+  left: calc( 40% - 370px );
+  top: 5%;
 }
 .img1{
   width: 90%;
   height: 90%;
-  position: relative;
-  left: calc( 40% - 370px );
-  top: 5%;
+
 }
 .first_name{
   position:absolute;
