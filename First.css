@@ -1,18 +1,23 @@
 
 body {
   background-image: url("Background/backg.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-position: center;
   background-size:cover;
   background-attachment:fixed;
   font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
 }
+#first_box{
+  max-width: 1000px;
+  max-height: 700px;
+}
 .box1  {
-  width: 1000px;
-  height: 700px;
+  width: 90%;
+  height: 90%;
   left: calc( 30% - 350px );
   top: 9%;
   position: absolute;
-  background: url("Background/backg2.png")center/cover no-repeat;
+  background: url("Background/backg2.png")center/cover repeat;
   border-radius: 90px;
   border: 3px solid rgba(255, 255, 255, 0.6);
   text-align: center;
@@ -54,7 +59,6 @@ h1{
     color: #FFFFFF;
     font-family: Century,sans-serif;
     font-size: 18px;
-
 }
 .tab button.active {
     margin-right: 7px;
@@ -76,15 +80,18 @@ h1{
     border: 4px solid rgba(0, 0, 255, 0.6);
     background: url("Background/backg4.png");
     background-size:cover;
-
+}
+#image1{
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
 }
 .img1{
-  width: 300px;
-  height: 300px;
+  width: 90%;
+  height: 90%;
+  position: relative;
   left: calc( 40% - 370px );
   top: 5%;
-  position: absolute;
-  display: flex;
 }
 .first_name{
   position:absolute;
@@ -145,7 +152,7 @@ h1{
 .dropbtn {
    background: rgba(0, 0, 0, 0);
    color: white;
-   padding: 16px;
+   padding: 12px 32px;
    font-size: 22px;
    border: none;
    cursor: pointer;
@@ -162,16 +169,16 @@ h1{
 .dropdown-content {
    display: none;
    position: absolute;
-   left: calc(20% - 20px);
+   left: calc(20% - 22px);
    top: 97%;
    background: rgba(0, 0, 0, 0);
-   min-width: 16px;
+   min-width: 12px;
    box-shadow: 0px 8px 16px 0px rgba(255,234,13,0.5);
    z-index: 1;
 }
 .dropdown-content a {
    color: white;
-   padding: 12px 16px;
+   padding: 12px 32px;
    text-decoration: none;
    display: block;
 }
