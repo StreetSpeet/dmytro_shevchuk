@@ -10,13 +10,13 @@ body {
 #first_box{
   max-width: 1000px;
   max-height: 700px;
+  position: absolute;
+  left: calc( 30% - 350px );
+  top: 9%;
 }
 .box1  {
   width: 90%;
   height: 90%;
-  left: calc( 30% - 350px );
-  top: 9%;
-  position: absolute;
   background: url("Background/backg2.png")center/cover repeat;
   border-radius: 90px;
   border: 3px solid rgba(255, 255, 255, 0.6);
