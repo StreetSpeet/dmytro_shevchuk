@@ -13,6 +13,7 @@ body {
   position: absolute;
   left: calc( 30% - 350px );
   top: 9%;
+  display: flex;
 }
 .box1  {
   width: 90%;
@@ -22,7 +23,7 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.6);
   text-align: center;
   box-sizing: border-box;
-  display: flex;
+
 }
 .box2{
   width: 100%;
@@ -85,17 +86,17 @@ h1{
   max-width: 300px;
   max-height: 300px;
   display: flex;
-  position: inherit;
-  left: calc( 40% - 370px );
-  top: 5%;
+
 }
 .img1{
   width: 90%;
   height: 90%;
-
+  position: absolute;
+  left: calc( 39% - 370px );
+  top: 3%;
 }
 .first_name{
-  position:absolute;
+  position:relative;
   left: 2%;
   top:50%;
   color:#FFFFFF;
