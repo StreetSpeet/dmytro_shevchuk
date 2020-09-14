@@ -21,7 +21,7 @@ body {
   box-sizing: border-box;
 
 }
-.box2{
+box1.box2{
   width: 100%;
   height: 100%;
   left: calc( 50% - 100px );
@@ -178,7 +178,7 @@ h1{
 .show {display:block;}
 
 
-.tab li a:hover{
+.dws-menu li a:hover{
 background-color: #FFFFFF;
   border-radius: 12px;
   background-size: cover;
@@ -186,30 +186,30 @@ background-color: #FFFFFF;
   box-shadow: 1px 5px 10px -5px black;
   transition: all 1s ease;
 }
-.tab li ul{
+.dws-menu li ul{
   position: absolute;
   min-width: 150px;
   padding: 0px;
   display: none;
 }
-.tab li > ul li a{
+.dws-menu li > ul li a{
   text-transform: none;
 background-color: #FFFFFF;
   background-size: cover;
   border-radius: 44px;
 }
-.tab li:hover > ul{
+.dws-menu li:hover > ul{
   display: block;
 }
-.tab li > ul li:hover{
+.dws-menu li > ul li:hover{
   text-transform: none;
 background-color: #FFFFFF;
   background-size: cover;
   border-radius: 12px;
 }
 
-.tab [type="checkbox"],
-.tab label.toggleSubmenu{
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu{
   display: none;
 }
 .dws-menu label.toggleMenu{
@@ -229,9 +229,6 @@ background-color: #FFFFFF;
  }
  .nag{
    font-size: 20px;
- }
- .first_box{
-   display: none;
  }
  .dws-menu ul {
    display: block;
