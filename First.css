@@ -79,14 +79,14 @@ body {
     background: url("Background/backg4.png");
     background-size:cover;
 }
-.box1 .img1{
+.img1{
   width: 100%;
   height: 100%  ;
   position: absolute;
   left: 3%;
   top: 3%;
 }
-.box1 .first_name{
+.first_name{
   position:relative;
   left: 2%;
   top:50%;
