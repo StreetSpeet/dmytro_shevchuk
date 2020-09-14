@@ -230,6 +230,9 @@ background-color: #FFFFFF;
  .nag{
    font-size: 20px;
  }
+ .first_box{
+   display: none;
+ }
  .dws-menu ul {
    display: block;
    margin: 0;
