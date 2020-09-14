@@ -11,7 +11,7 @@ body {
   width: 10px;
   height: 700px;
   position: absolute;
-  left: calc( 30% - 350px );
+  left: calc( 10% - 350px );
   top: 9%;
   display: flex;
   background: url("Background/backg2.png")center/cover repeat;
