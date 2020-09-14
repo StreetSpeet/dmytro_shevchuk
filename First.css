@@ -1,4 +1,3 @@
-
 body {
   background-image: url("Background/backg.jpg");
   background-repeat: repeat;
@@ -7,17 +6,14 @@ body {
   background-attachment:fixed;
   font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
 }
-#first_box{
-  max-width: 1000px;
-  max-height: 700px;
+
+.box1  {
+  width: 1000px;
+  height: 700px;
   position: absolute;
   left: calc( 30% - 350px );
   top: 9%;
   display: flex;
-}
-.box1  {
-  width: 90%;
-  height: 90%;
   background: url("Background/backg2.png")center/cover repeat;
   border-radius: 90px;
   border: 3px solid rgba(255, 255, 255, 0.6);
@@ -82,15 +78,9 @@ h1{
     background: url("Background/backg4.png");
     background-size:cover;
 }
-#image1{
-  max-width: 300px;
-  max-height: 300px;
-  display: flex;
-
-}
 .img1{
-  width: 90%;
-  height: 90%;
+  width: 300px;
+  height: 300px;
   position: absolute;
   left: calc( 39% - 370px );
   top: 3%;
