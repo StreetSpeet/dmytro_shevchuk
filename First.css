@@ -8,8 +8,8 @@ body {
 }
 
 body. box1  {
-  width: 10px;
-  height: 70px;
+  width: 100px;
+  height: 700px;
   position: absolute;
   left: calc( 10% - 350px );
   top: 9%;
