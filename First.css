@@ -1,10 +1,11 @@
 body {
   background-image: url("Background/backg.jpg");
-  background-repeat:repeat-x;
+  background-repeat: repeat;
   background-position: absolute;
   background-size:cover;
   background-attachment:fixed;
   font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
 }
 
 .box1  {
