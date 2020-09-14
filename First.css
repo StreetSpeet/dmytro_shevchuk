@@ -1,17 +1,17 @@
 body {
   background-image: url("Background/backg.jpg");
   background-repeat: repeat;
-  background-position: center;
+  background-position: absolute;
   background-size:cover;
   background-attachment:fixed;
   font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
 }
 
-body. box1  {
-  width: 100px;
-  height: 700px;
+.box1  {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  left: calc( 10% - 350px );
+  left: calc(35% - 300px);
   top: 9%;
   display: flex;
   background: url("Background/backg2.png")center/cover repeat;
@@ -21,31 +21,32 @@ body. box1  {
   box-sizing: border-box;
 
 }
-box1. box2{
+.box1 .box2{
   width: 100%;
   height: 100%;
-  left: calc( 50% - 100px );
+  left: 35%;
   top: 10%;
   position: absolute;
-  border: 4px solid rgba(0, 0, 255, 0.4);
+  border: 4px;
   border-radius: 90px;
 }
  h1{
   font-size: 28px;
 }
-box1. tab{
+.box2 .tab{
   width: 100%;
   height: 100%;
-  left: calc( 50% - 501px );
+  left: 0%;
   position: absolute;
   overflow: hidden;
   border-radius: 90px;
   border: 4px solid rgba(0, 0, 255, 0.4);
-  background: url("Background/backg3.jpg")center/cover no-repeat;
+  background: url("Background/backg3.jpg")center/cover;
   text-align: center;
 }
 .tab button {
-    background-color: inherit;
+    background: url("Background/backg4.png");
+    background-size:cover;
     border: none;
     border-radius: 90px;
     border: 4px solid rgba(0, 0, 255, 0.6);
@@ -60,7 +61,8 @@ box1. tab{
 .tab button.active {
     margin-right: 7px;
     border-radius: 90px;
-    background: url("Background/backg4.png");
+    background: url("Background/background_for_button.jpg");
+    background-size:cover;
     color: #FFFFFF;
     font-family: Century,sans-serif;
     font-size: 18px;
@@ -70,7 +72,6 @@ box1. tab{
     height: 88%;
     top: 12%;
     color: #FFFFFF;
-
     position: absolute;
     border-radius: 90px;
     display: none;
@@ -78,14 +79,14 @@ box1. tab{
     background: url("Background/backg4.png");
     background-size:cover;
 }
-.img1{
-  width: 300px;
-  height: 300px;
+.box1 .img1{
+  width: 100%;
+  height: 100%  ;
   position: absolute;
-  left: calc( 39% - 370px );
+  left: 3%;
   top: 3%;
 }
-.first_name{
+.box1 .first_name{
   position:relative;
   left: 2%;
   top:50%;
@@ -140,7 +141,6 @@ box1. tab{
   }
 }
 */
-
 .dropbtn {
    background: rgba(0, 0, 0, 0);
    color: white;
