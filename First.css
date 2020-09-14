@@ -178,7 +178,7 @@ h1{
 .show {display:block;}
 
 
-.dws-menu li a:hover{
+.tab li a:hover{
 background-color: #FFFFFF;
   border-radius: 12px;
   background-size: cover;
@@ -186,30 +186,30 @@ background-color: #FFFFFF;
   box-shadow: 1px 5px 10px -5px black;
   transition: all 1s ease;
 }
-.dws-menu li ul{
+.tab li ul{
   position: absolute;
   min-width: 150px;
   padding: 0px;
   display: none;
 }
-.dws-menu li > ul li a{
+.tab li > ul li a{
   text-transform: none;
 background-color: #FFFFFF;
   background-size: cover;
   border-radius: 44px;
 }
-.dws-menu li:hover > ul{
+.tab li:hover > ul{
   display: block;
 }
-.dws-menu li > ul li:hover{
+.tab li > ul li:hover{
   text-transform: none;
 background-color: #FFFFFF;
   background-size: cover;
   border-radius: 12px;
 }
 
-.dws-menu [type="checkbox"],
-.dws-menu label.toggleSubmenu{
+.tab [type="checkbox"],
+.tab label.toggleSubmenu{
   display: none;
 }
 .dws-menu label.toggleMenu{
