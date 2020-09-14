@@ -1,6 +1,6 @@
 body {
   background-image: url("Background/backg.jpg");
-  background-repeat:no-repeat;
+  background-repeat:round;
   background-position: absolute;
   background-size:cover;
   background-attachment:fixed;
