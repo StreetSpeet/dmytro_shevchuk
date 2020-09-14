@@ -9,7 +9,7 @@ body {
 
 .box1  {
   width: 10px;
-  height: 700px;
+  height: 70px;
   position: absolute;
   left: calc( 10% - 350px );
   top: 9%;
