@@ -18,6 +18,9 @@
     </div>
   </head>
   <body>
+    <nav class="dws-menu">
+      <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+      <label for="menu" class="toggleMenu"><i>Menu</i></label>
     <div class="box1" id='first_box'>
       <img class="img1" id='image1' src="Photo.png" alt="error">
       <h1 class="first_name">DMYTRO SHEVCHUK</h1>
@@ -27,10 +30,12 @@
       <h3 class="date2">Żytomierz, Ukraine</h3>
       <div class="box2">
         <div class="tab">
-          <button class="tablinks" onclick="openPage(event, 'EDUKACJA')">Edukacja</button>
-          <button class="tablinks" onclick="openPage(event, 'KURSY I STAŻE')">Kursy i staże</button>
-          <button class="tablinks" onclick="openPage(event, 'PRAKTYKI')">Praktyki</button>
-          <button class="tablinks" onclick="openPage(event, 'UMIEJĘTNOŚCI')">Umiejętności</button>
+          <ul>
+            <li><button class="tablinks" onclick="openPage(event, 'EDUKACJA')">Edukacja</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'KURSY I STAŻE')">Kursy i staże</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'PRAKTYKI')">Praktyki</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'UMIEJĘTNOŚCI')">Umiejętności</button></li>
+        </ul>
         </div>
         <div id="EDUKACJA" class="tabcontent" >
           <h3>Edukacja</h3>
