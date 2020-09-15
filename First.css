@@ -90,7 +90,7 @@ body {
 .box1 .first_name{
   position: absolute;
   left: 2%;
-  top:50%;
+  top:100%;
   color:#FFFFFF;
 }
 .Date{
