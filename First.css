@@ -14,7 +14,7 @@ body {
   position: absolute;
   left: calc(35% - 300px);
   top: 9%;
-  display: non;
+  display: block;
   background: url("Background/backg2.png")center/cover repeat;
   border-radius: 90px;
   border: 3px solid rgba(255, 255, 255, 0.6);
@@ -27,6 +27,7 @@ body {
   height: 100%;
   left: 35%;
   top: 10%;
+  display: block;
   position: absolute;
   border: 4px;
   border-radius: 90px;
