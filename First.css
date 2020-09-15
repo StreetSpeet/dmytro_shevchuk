@@ -88,7 +88,7 @@ body {
   top: 3%;
 }
 .img1 .first_name{
-  position:relative;
+  position: absolute;
   left: 2%;
   top:50%;
   color:#FFFFFF;
