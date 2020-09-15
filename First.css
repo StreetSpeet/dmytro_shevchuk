@@ -154,7 +154,7 @@ body {
    box-shadow: 0px 0px 16px 0px rgba(255,234,13,0.5);
 }
 .dropdown {
-  left: calc(90% - 20px);
+  left: calc(93% - 32px);
   position: absolute;
    display: flex;
 }
