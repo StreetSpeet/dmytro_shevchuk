@@ -1,7 +1,7 @@
 body {
   background-image: url("Background/backg.jpg");
-  background-repeat:round;
-  background-position:absolute;
+  max-width: 1920px;
+  max-height: 1080px;
   background-size:contain;
   background-attachment:fixed;
   font-family: -moz-system, Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
