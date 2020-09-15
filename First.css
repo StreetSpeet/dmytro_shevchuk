@@ -88,13 +88,13 @@ body {
 }
 .box1 .first_name{
   position: relative;
-  left: -37%;
+  left: -32%;
   top: 7%;
   color:#FFFFFF;
 }
 .box1 .Date{
   position: relative;
-  left: -37%;
+  left: -32%;
   top: 8%;
   color:#FFFFFF;
   font-family: Century,sans-serif;
@@ -102,7 +102,7 @@ body {
 }
 .box1 .date1{
   position:relative;
-  left: -43%;
+  left: -32%;
   top: 7%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
@@ -110,7 +110,7 @@ body {
 }
 .box1 .Age {
   position:relative;
-  left: -44%;
+  left: -32%;
   top: 6%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
@@ -118,7 +118,7 @@ body {
 }
 .box1 .date2{
   position:relative;
-  left: -39%;
+  left: -32%;
   top: 5%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
