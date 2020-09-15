@@ -92,34 +92,34 @@ body {
   top: 7%;
   color:#FFFFFF;
 }
-.Date{
-  position:absolute;
-  left: 2%;
-  top: 60%;
+.box1 .Date{
+  position: relative;
+  left: -37%;
+  top: 8%;
   color:#FFFFFF;
   font-family: Century,sans-serif;
   font-size: 18px;
 }
-.date1{
-  position:absolute;
-  left: 2%;
-  top: 65%;
+.box1 .date1{
+  position:relative;
+  left: -43%;
+  top: 7%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
   font-size: 18px;
 }
-.Age {
-  position:absolute;
-  left: 2%;
-  top: 70%;
+.box1 .Age {
+  position:relative;
+  left: -44%;
+  top: 6%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
   font-size: 18px;
 }
-.date2{
-  position:absolute;
-  left: 2%;
-  top: 75%;
+.box1 .date2{
+  position:relative;
+  left: -39%;
+  top: 5%;
   color: #FFFFFF;
   font-family: Century,sans-serif;
   font-size: 18px;
