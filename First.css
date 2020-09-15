@@ -89,9 +89,9 @@ body {
   top: 3%;
 }
 .box1 .first_name{
-  position: absolute;
-  left: 2%;
-  top:50%;
+  position: relative;
+  left: -37%;
+  top: 5%;
   color:#FFFFFF;
 }
 .Date{
