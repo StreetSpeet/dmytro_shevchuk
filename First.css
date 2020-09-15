@@ -14,7 +14,7 @@ body {
   position: absolute;
   left: calc(35% - 300px);
   top: 9%;
-  display: flex;
+  display: inlines;
   background: url("Background/backg2.png")center/cover repeat;
   border-radius: 90px;
   border: 3px solid rgba(255, 255, 255, 0.6);
