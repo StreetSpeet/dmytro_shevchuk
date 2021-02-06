@@ -66,8 +66,8 @@ h1, h2, h3{
   border: 3px solid rgba(255, 255, 255, 0.6);
   height: 100%;
   opacity: 1;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
   z-index: 2;
   background: url("Pictures/backg2.png")center/cover repeat;
@@ -82,42 +82,46 @@ h1, h2, h3{
 }
 
 .gallery-item.gallery-item-previous {
-  left: 30%;
+  top: 30%;
   font-size: 3px;
-  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
 
 .gallery-item.gallery-item-next {
-  left: 70%;
-  transform: translateX(-50%);
+  top: 70%;
+  transform: translateY(-50%);
   font-size: 3px;
 }
 
 .gallery-item.gallery-item-first {
-  left: 15%;
-  transform: translateX(-50%);
+  top: 15%;
+  transform: translateY(-50%);
   font-size: 3px;
 }
 
 .gallery-item.gallery-item-last {
-  left: 85%;
-  transform: translateX(-50%);
+  top: 85%;
+  transform: translateY(-50%);
   font-size: 3px;
 }
 
 .gallery-controls {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  margin-left: 90%;
+  margin-top: -27%;
 }
 
 .gallery-controls button {
-  border: 0;
+  transform: rotate(-90deg) translateX(45%);
   cursor: pointer;
   font-size: 16px;
-  margin: 50px 20px;
-  padding: 0 12px;
+  margin: 80px 0 22px 0;
   text-transform: capitalize;
+  border-radius: 90px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: url("Pictures/background_for_button.jpg");
+  background-size:cover;
 }
 
 .gallery-controls button:focus {
@@ -131,15 +135,14 @@ h1, h2, h3{
 .gallery-controls-previous::before {
   border: solid #000;
   border-width: 0 2px 2px 0;
-  content: '';
   display: inline-block;
   height: 4px;
-  left: -10px;
+  top: -10px;
   padding: 2px;
   position: absolute;
   top: 0;
-  transform: rotate(135deg) translateY(-50%);
-  transition: left 0.15s ease-in-out;
+  transform: rotate(135deg) translateX(-50%);
+  transition: top 0.15s ease-in-out;
   width: 4px;
 }
 
@@ -154,14 +157,13 @@ h1, h2, h3{
 .gallery-controls-next::before {
   border: solid #000;
   border-width: 0 2px 2px 0;
-  content: '';
   display: inline-block;
   height: 4px;
   padding: 2px;
   position: absolute;
-  right: -10px;
-  top: 50%;
-  transform: rotate(-45deg) translateY(-50%);
+  bottom: -10px;
+  left: 50%;
+  transform: rotate(-45deg) translateX(-50%);
   transition: right 0.15s ease-in-out;
   width: 4px;
 }
@@ -175,7 +177,9 @@ h1, h2, h3{
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 0 0 -5% -5%;
+  transform: rotate(-90deg) translateX(-50%);
+  margin-left: 55%;
+  margin-bottom: 85%;
   position: absolute;
   width: 100%;
 }
